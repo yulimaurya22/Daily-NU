@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3FDF4"
+    tools:context=".Manaqib">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#76B368">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/gg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manaqib"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Bab1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:onClick="bab1"
+            android:text="Bab 1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/Bab2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Bab 2"
+            android:onClick="bab2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/Bab3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Bab 3"
+            android:onClick="bab3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/Bab4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Bab 4"
+            android:onClick="bab4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/Bab5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Bab 5"
+            android:onClick="bab5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/Bab6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Bab 6"
+            android:onClick="bab6"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/Bab7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Bab 7"
+            android:textSize="20sp"
+            android:onClick="bab7"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/Bab8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Bab 8"
+            android:onClick="bab8"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+    </LinearLayout>
+
+</RelativeLayout>
