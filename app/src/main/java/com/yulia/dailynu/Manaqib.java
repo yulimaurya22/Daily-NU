@@ -9,12 +9,25 @@ import android.view.View;
 
 public class Manaqib extends AppCompatActivity {
 
-
+    ActionBar actionBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manaqib);
+        getSupportActionBar().setTitle("Pilihan BAB");
+        actionBar = getSupportActionBar();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
 
+    @Override
+    public boolean onSupportNavigateUp(){
+        onBackPressed();
+        return true;
+    }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
     }
 
     public void bab1(View view) {
