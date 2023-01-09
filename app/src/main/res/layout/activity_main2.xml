@@ -40,15 +40,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:layout_margin="5dp"
+            android:layout_height="165dp"
+            android:layout_margin="4dp"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cdManaqib"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp">
@@ -73,7 +73,7 @@
                         android:text="Manaqib"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -82,7 +82,7 @@
                 android:id="@+id/cdIstighatsah"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp">
@@ -107,7 +107,7 @@
                         android:text="Istighatsah"
                         android:textAlignment="center"
                         android:textColor="#F8F4F4"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -116,8 +116,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:layout_margin="5dp"
+            android:layout_height="165dp"
+            android:layout_margin="4dp"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
@@ -149,7 +149,7 @@
                         android:text="Tahlil"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -183,7 +183,7 @@
                         android:text="Diba'"
                         android:textAlignment="center"
                         android:textColor="@color/white"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -191,8 +191,8 @@
 
         <LinearLayout
             android:layout_width="170dp"
-            android:layout_height="180dp"
-            android:layout_margin="5dp"
+            android:layout_height="165dp"
+            android:layout_margin="4dp"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
@@ -224,7 +224,7 @@
                         android:text="Tasbih Digital"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

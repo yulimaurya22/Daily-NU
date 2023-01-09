@@ -19,6 +19,8 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        getSupportActionBar().setTitle("Menu Home");
+
         Tombolsatu = findViewById(R.id.cdManaqib);
         Tombolsatu.setOnClickListener(new View.OnClickListener() {
             @Override
