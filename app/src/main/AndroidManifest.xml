@@ -13,6 +13,13 @@
         android:theme="@style/Theme.DailyNU"
         tools:targetApi="31">
         <activity
+            android:name=".Sholawat"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Bab8"
             android:exported="false">
             <meta-data
