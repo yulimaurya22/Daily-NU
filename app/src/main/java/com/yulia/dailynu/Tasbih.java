@@ -10,7 +10,6 @@ import android.widget.Toast;
 
 public class Tasbih extends AppCompatActivity {
 
-    ActionBar actionBar;
 
     private String textToast = "test";
     private int mCount = 0;
@@ -21,20 +20,7 @@ public class Tasbih extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tasbih);
 
-        getSupportActionBar().setTitle("back");
-        actionBar = getSupportActionBar();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }
 
-    @Override
-    public boolean onSupportNavigateUp(){
-        onBackPressed();
-        return true;
-    }
-
-    @Override
-    public void onBackPressed(){
-        super.onBackPressed();
 
 
         mShowCount = (TextView) findViewById(R.id.showCount);
