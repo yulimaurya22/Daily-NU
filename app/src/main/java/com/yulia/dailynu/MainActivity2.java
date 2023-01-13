@@ -1,8 +1,11 @@
 package com.yulia.dailynu;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -70,5 +73,26 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(open);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alertDialog =new AlertDialog.Builder(MainActivity2.this);
+        alertDialog.setTitle("Exit App");
+        alertDialog.setMessage("Klik YA untuk Keluar");
+        alertDialog.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finishAffinity();
+            }
+        });
+        alertDialog.setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+
+            }
+        });
+        alertDialog.show();
     }
 }
