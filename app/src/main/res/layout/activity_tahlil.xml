@@ -33,6 +33,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="12dp"
+                android:justificationMode="inter_word"
                 android:gravity="center"
                 android:text="إلَى حَضْرَةِ النَّبِيِّ الْمُصْطَفَى مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَالِهِ وَصَحْبِهِ شَيْءٌ لِلّهِ لهُمُ الْفَاتِحَة\n\nُ
 بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ. قُلْ هُوَ اللهُ اَحَدٌ. اَللهُ الصَّمَدُ. لَمْ يَلِدْ وَلَمْ يُوْلَدْ. وَلَمْ يَكٌنْ لَهُ كُفُوًا اَحَد
