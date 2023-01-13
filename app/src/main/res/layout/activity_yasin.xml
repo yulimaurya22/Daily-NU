@@ -33,6 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
                 android:layout_marginRight="12dp"
                 android:gravity="center"
                 android:text="مُغْرَمْ… قَلْبِيْ بِحُبَّكْ مُغْرَمْ\n\n

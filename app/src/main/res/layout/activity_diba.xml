@@ -30,6 +30,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="12dp"
