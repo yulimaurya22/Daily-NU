@@ -13,6 +13,7 @@ public class MainActivity2 extends AppCompatActivity {
     CardView Tomboltiga;
     CardView Tombolempat;
     CardView Tombollima;
+    CardView Tombolenam;
 
 
     @Override
@@ -58,6 +59,14 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent open = new Intent(MainActivity2.this, Tasbih.class);
+                startActivity(open);
+            }
+        });
+        Tombolenam = findViewById(R.id.cdYasin);
+        Tombolenam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent open = new Intent(MainActivity2.this, Yasin.class);
                 startActivity(open);
             }
         });

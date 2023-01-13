@@ -196,7 +196,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cdSholawat"
+                android:id="@+id/cdYasin"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
@@ -210,18 +210,18 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/solawat"
+                        android:id="@+id/yasin"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="4"
-                        app:srcCompat="@drawable/solawat" />
+                        app:srcCompat="@drawable/yasin" />
 
                     <TextView
-                        android:id="@+id/Sholawat"
+                        android:id="@+id/Yasin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#76B368"
-                        android:text="Sholawat"
+                        android:text="Surat Yasin"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp"

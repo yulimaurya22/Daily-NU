@@ -18,7 +18,9 @@ public class Tasbih extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setTitle("Tasbih");
         setContentView(R.layout.activity_tasbih);
+
 
 
 
