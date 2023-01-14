@@ -3,7 +3,9 @@ package com.yulia.dailynu;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Yasin extends AppCompatActivity {
 
@@ -28,4 +30,19 @@ public class Yasin extends AppCompatActivity {
     public void onBackPressed(){
         super.onBackPressed();
     }
+    public void tawassul(View view) {
+        Intent intent = new Intent(Yasin.this, Tawassul.class);
+        startActivity(intent);
+    }
+
+    public void suratyasin(View view) {
+        Intent intent = new Intent(Yasin.this, SuratYasin.class);
+        startActivity(intent);
+    }
+
+    public void doayasin(View view) {
+        Intent intent = new Intent(Yasin.this, DoaYasin.class);
+        startActivity(intent);
+
 }
+    }

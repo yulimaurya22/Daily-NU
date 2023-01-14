@@ -1,65 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#F3FDF4"
     tools:context=".Yasin">
 
-
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="230dp"
+        android:background="#76B368">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/gg" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="16dp"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/isi"
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="مُغْرَمْ"
+                android:text="Yasin"
                 android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="25sp"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="15dp"
-                android:justificationMode="inter_word"
-                android:layout_marginRight="12dp"
-                android:gravity="center"
-                android:text="مُغْرَمْ… قَلْبِيْ بِحُبَّكْ مُغْرَمْ\n\n
-يَا مُصْطَفَانَا الْمُكَرَّمْ\n\n
-يَا رَسُوْلَ الله\n\n
-جَمَالَك مَافِي اثْنَيْنْ\n\n
-مَا شَافِتْ مِثْلُهْ عَيْنْ\n\n
-أَسَرْ فُؤَادِيْ\n\n
-وِ زَادْ وِدَادِيْ\n\n
-بَدْرِ الدُّجَا يَازيْنْ\n\n
-أَبْيَضْ حُلْوِ الْخَدِّينْ\n\n
-يَا وَاسِعَ الْعَيْنَينْ\n\n
-أَحْلَى ابْتِسَامَهْ\n\n
-بِأَبْهَى عَلَامَةْ\n\n
-يَا سَيِّدَ الْكَوْنَينْ\n\n
-إِمْتَى حَبِيْبِيْ أَرَاكْ\n\n
-وَالْقَاكْ وَافْرَحْ بِنَدَاكْ ؟\n\n
-طَهَ جُدْ بِنَظْرَةْ إِلَي\n\nَّ
-طَهَ يَا عَظِيْمَ الْجَاه\n\nْ
-طَهَ جُدْ بِنَظْرَةْ إِلَي\n\nَّ
-طَهَ يَا عَظِيْمَ الْجَاه\n\nْ"
-                android:textColor="@color/black"
-                android:textSize="20dp" />
-
-
         </LinearLayout>
-    </ScrollView>
+    </RelativeLayout>
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Tawassul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:onClick="tawassul"
+            android:text="Tawassul"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/SuratYasin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Surat Yasin"
+            android:onClick="suratyasin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/DoaYasin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Doa Yasin"
+            android:onClick="doayasin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
