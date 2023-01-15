@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Tawassul">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Tawassul" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/isi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بسم الله الرحمن الرحيم"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center"
+                android:text="أَشْهَدُ اَنْ لآاِلَهَ اِلاَّاللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَّسُوْلُ اللهِ
+عَلَى هَذِهِ النِّيَّةِ وَعَلَى كُلِّ نِيَّةٍ صَالِحَةٍ إلَى حَضْرَةِ النَّبِيِّ الْمُصْطَفَى سَيِّدِنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَعَلٰى اَلِهِ وَاَصْحَابِهِ وَأَزْوَاجِهِ وَذُرِيَّتِهِ وَاَهْلِ بَيْتِهِ اْلكِرَامْ أجْمَعِيْن شَيْئٌ ِللهِ لَهُمْ ألفاتحة ...\n\n
+ثُمَّ إلَى حَضْرَةِ جَمِيْعِ أصْحَابِ رَسُوْلِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمْ خُصُوْصًا سَيِّدِنَا أبُوْ بَكْرٍ نِالصِّدِيْقْ وَعُمَرُ ابْنُ الْخَطَابْ وَعُثْمَانُ ابْنُ عَفَانْ وَعَلِيُّ ابْنُ أبِي طَالِبْ وَعَلَى بَاقِيَةٍ مِنْ صَحَابَتِهِ اَجْمَعِيْن وَإلَى جَمِيْعِ اْلأنْبِيآءِ وَالْمُـرْسَلِـْينَ وَالشُّهَدَآءِ وَالصَّالِحِيْن وَالْعُلَمآءِ الْعَامِلِـيْن وَالْمَلَائِكَةِ الْمُقَرَّبِيْن وَالْكَرُوْبِيِّيْن وَالرُّوْحاَنِيِّينْ وَالْكَرَمَ الْكَاتِبِيْن وَلِسَيِّدِنَا مَلٰئِكَةِ جِبْرِيْل مِيْكَائِلْ اِسْرَافِيْلْ عِزْرَائِلْ وَحَمَلَةِ الْعَرْشِ عَلَيْهِمُ السَّلاَمُ أَجْمَعِيْنَ الفاتحة ...\n\n
+ثُمَّ إلَى حَضْرَةِ جَمِيْعِ أوْلِيَآءِاللهِ مِنْ كُلِّ وَلِيٍّ وَوَلِيَّةٍ مِنْ مَشَارِقِ اْلأرْضِ إلَى مَغَارِبِهَا فِيْ بَرِّهَا وَبَحْرِهَا وَجَمِيْعِ أوْلِيَآءِ تِسْعَةِ قَدَّسَ اللهُ سِرَّهُمْ وَخُصُوْصًا اِلَى حَضْرَةِ سُلْطَانِ أَوْلِيَآءِاللهِ سَيِّدِنَا شَيْخِ عَبْدُالْقَادِرْ الْجَيْلاَنِيْ صَاحِبِ الْكَـَرمَةِ وَاْلإجَازَةِ قَدَّسَ اللهُ سِرَّهُ وَإلَى حَضْرَةِ شَيْخِ جُنَيْدِيْ الْبَغْدَادِيِّ وَشَيْخِ بَهَاءُ الدِّيْنْ اَلنَّقْشَبَنْدِيِّ وَإِلَى حَضْرَةِ نَبِى خِضِـرْ وَنَبِيْ إِلْيَاسْ وَنَبِيْ إدْرِسْ عَلَيْهِـمُ السَّلامُ أَجْمَعِيْنَ. الفاتحة ... \n\n
+\n\n ثُمَّ إلَى أرْوَاحِ جَمِيْعِ أهْلِ الْقُبُوْرِ مِنَ الْمُسْلِمِيْنَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِيْنَ وَالْمُؤْمِنَاتِ وَخُصُوْصًا إلَى رُوْحِ ….. بن/بنت ..... اللَّهُمَّ اغْفِرْلَهُمْ وَارْحَمْهُمْ وَعَافِهِمْ وَاعْفُ عَنْهُمْ وَاكْرِمْ نُزُوْلَهُمْ وَوَسِعْ مَدْخَلَهُمْ وَتَقَبَّلْ حَسَنَاتِهِمْ وَكَفِّرْ سَيِّئَاتِهِمْ وَاجْعَلِ الْجَنَّةَ مَأْوَىهُم الفاتحـة.."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
