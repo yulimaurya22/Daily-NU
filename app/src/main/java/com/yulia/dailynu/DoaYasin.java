@@ -5,15 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SuratYasin extends AppCompatActivity {
-
+public class DoaYasin extends AppCompatActivity {
     ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_surat_yasin);
-        getSupportActionBar().setTitle("Surat Yasin");
+        setContentView(R.layout.activity_doa_yasin);
+        getSupportActionBar().setTitle("Doa Yasin");
         actionBar = getSupportActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

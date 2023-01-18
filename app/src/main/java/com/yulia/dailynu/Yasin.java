@@ -15,7 +15,7 @@ public class Yasin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yasin);
-        getSupportActionBar().setTitle("Surat Yasin");
+        getSupportActionBar().setTitle("Pilihan Bacaan");
         actionBar = getSupportActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
@@ -40,9 +40,9 @@ public class Yasin extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void doayasin(View view) {
+
+    public void Doayasin(View view) {
         Intent intent = new Intent(Yasin.this, DoaYasin.class);
         startActivity(intent);
-
-}
     }
+}

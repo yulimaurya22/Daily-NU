@@ -23,7 +23,8 @@
                 android:text="بسم الله الرحمن الرحيم"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -32,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="12dp"
                 android:gravity="center"
                 android:text="يَارَبِّ\n\n

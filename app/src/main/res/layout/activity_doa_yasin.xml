@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoaYasin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/isi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بسم الله الرحمن الرحيم"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center"
+                android:text="الْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ حَمْدَ الشَّاكِرِيْنَ حَمْدَ النَّاعِمِيْنَ حَمْدًا يُّوَافِى نِعَمَهُ وَيُكَافِىءُ مَزِيْدَهُ، يَا رَبَّنَا لَكَ الْحَمْدُ كَمَا يَنْبَغِيْ لِجَلَالِ وَجْهِكَ وَعَظِيْمِ سُلْطَانِكَ. سُبْحَانَكَ لَا نُحْصِى ثَنَاءً عَلَيْكَ أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ، فَلَكَ الحَمْدُ قَبْلَ الرِّضَى وَلَكَ الحَمْدُ بَعْدَ الرِّضَى وَلَكَ الحَمْدُ إِذَا رَضِيْتَ عَنَّا دَائِمًا أَبَدًا. اَللَّهُمَّ اشْرَحْ بِالقُرْآنِ صُدُوْرَنَا وَيَسِّرْ بِهِ أُمُوْرَنَا وَعَظِّمْ بِهِ أُجُوْرَنَا وَحَسِّنْ بِهِ أَخْلَاقَنَا وَوَسِّعْ بِهِ أَرْزَاقَنَا وَنَوِّرْ بِهِ قُبُوْرَنَا. اَللَّهُمَّ إِنَّانَسْتَحْفِظُكَ وَنَسْتَوْدِعُكَ أَدْيَانَنَا وَأَنْفُسَنَاوَأَهْلَنَا وَأَوْلاَدَنَا وَأَمْوَالَنَا وَكُلَّ شَيْئٍ أَعْطَيْتَنَا. اللَّهُمَّ اجْعَلْنَا وَإِيَّاهُمْ فِي كَنَفِكَ وَأَمَانِكَ وَعِيَاذِكَ مِنْ كُلِّ شَيْطَانٍ مَرِيْدٍ وَجَبَّارٍ عَنِيْدٍ وَذِى عَيْنٍ وَذِى بَغْيٍ وَمِنْ شَرِّكُلِّ ذِى شَرٍّ إِنَّكَ عَلَى كُلِّ شَيْئٍ قَدِيْرٌ. اللَّهُمَّ جَمِّلْنَا بِالْعَافِيَةِ وَالسَّلاَمَةِ وَحَقِّقْنَا باِلتَّقْوَى وَالإِسْتِقَامَةِ, وَأَعِذْنَا مِنْ مُوْجِبَاتِ النَّدَامَةِ إِنَّكَ سَمِيْعُ الدُّعَاء. اللَّهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَأَوْلاَدِنَا وَمَشَايِخِنَا وَإِخْوَانِنَا فِي الدِّيْنِ وَأَصْحَابِنَا وَلِمَنْ أَحَبَّنَافِيْكَ وَلِمَنْ أَحْسَنَ إِلَيْنَا وَالْمُؤْمِنِيْنَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِيْنَ وَالْمُسْلِمَاتِ يَارَبَّ الْعَالَمِيْنَ. وَصَلِّ اللَّهُمَّ عَلَى عَبْدِكَ وَرَسُوْلِكَ سَيِّدِنَا وَمَوْلاَنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ, وَارْزُقْنَاكَمَالَ الْمُتَابِعَةِ لَهُ ظَاهِرًا وَبَاطِنًا فِي عَافِيَةٍ وَسَلاَمَةٍ بِرَحْمَتِكَ يَاأَرْحَمَ الرَّاحِمِيْنَ. وَالْحَمْدُالِلَّهِ رَبِّ الْعلَمِيْنَ."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
